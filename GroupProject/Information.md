@@ -6,3 +6,6 @@ Anaconda ensorflow 1.10.0, numpy 1.15.0
 
 ### IDE:
 pycharm
+
+### Data size:
+33431 img
