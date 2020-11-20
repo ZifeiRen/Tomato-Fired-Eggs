@@ -1,26 +1,10 @@
-import tensorflow as tf
-from tensorflow.examples.tutorials.mnist import input_data
+
 import os
 import numpy as np
 from PIL import Image
 import matplotlib.pyplot as plt
 import imageio
-def load_mnist(path="data/MNIST_data"):
-    """
-    Importing mnist datasets
-    :param path: Data path
-    :return: data dictionary: {train_x,train_y,test_x,test_y}
-    """
 
-    mnist = input_data.read_data_sets(path, one_hot=True)
-
-    data_dict = {
-        "train_x": mnist.train.images,
-        "train_y": mnist.train.labels,
-        "test_x": mnist.test.images,
-        "test_y": mnist.test.labels
-    }
-    return data_dict
 
 def read_img2numpy(batch_size=64,img_h=64,img_w=64,path="data/faces"):
     """
