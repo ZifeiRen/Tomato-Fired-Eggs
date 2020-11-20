@@ -2,7 +2,10 @@
 https://www.kaggle.com/mylesoneill/tagged-anime-illustrations
 
 ### Environemnt:
-Anaconda virtual_platform environment
+Anaconda ensorflow 1.10.0, numpy 1.15.0 
 
 ### IDE:
-Spyder
+pycharm
+
+### Data size:
+33431 img
